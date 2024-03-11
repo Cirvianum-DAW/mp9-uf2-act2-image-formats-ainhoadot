@@ -43,32 +43,46 @@
     <h1 class="text-4xl" style="font-weight: bold;">IMAGES SUNSET</h1>
   </header>
 
-  <div class="container mx-auto p-5">
-    <!-- Pregunta 1 -->
-    <div class="card">
-      <h2 class="question">Pregunta 1: Quin format és el més òptim per a aquest tipus d'imatge i per què?</h2>
-      <p class="answer">Resposta: </p>
-    </div>
-
-    <!-- Pregunta 2 -->
-    <div class="card">
-      <h2 class="question">Pregunta 2: Amb quina qualitat de compressió la imatge no perd qualitat?</h2>
-      <p class="answer">Resposta: </p>
-    </div>
-
-    <!-- Pregunta 3 -->
-    <div class="card">
-      <h2 class="question">Pregunta 3: Podem reduir encara més la seva mida sense perdre qualitat?</h2>
-      <p class="answer">Resposta: </p>
-    </div>
-
-    <!-- Pregunta 4 -->
-    <div class="card">
-      <h2 class="question">Pregunta 4: Què passaria si desem la imatge diverses vegades amb format JPEG?</h2>
-      <p class="answer">Resposta: </p>
-    </div>
+  <main
+  class="text-base text-center p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
+  <div>
+    <p><strong>(Org)  Imatge JPEG (High):</strong></p>
+    <br>
+    <img src="images/postaDeSol.jpg" alt="Example 2" class="w-full" />
+    <div class="image-info"></div>
   </div>
-
+  <div>
+    <p><strong>Imatge JPEG (Medium):</strong></p>
+    <br>
+    <img src="images/postaDeSolMedium.jpeg" alt="Example 2" class="w-full" />
+    <div class="image-info"></div>
+  </div>
+  <div>
+    <p><strong>Imatge JPEG (Low):</strong></p>
+    <br>
+    <img src="images/postaDeSolLow.jpeg" alt="Example 2" class="w-full" />
+    <div class="image-info"></div>
+  </div> 
+  <div>
+    <p><strong>Imatge PNG (24-bit):</strong></p>
+    <br>
+    <img src="images/postaDeSol.png" alt="Example 1" class="w-full" />
+    <div class="image-info"></div>
+  </div>
+  <br>
+  <div>
+    <p><strong>Imatge PNG (8-bit):</strong></p>
+    <br>
+    <img src="images/postaDeSol8bit.png" alt="Example 2" class="w-full" />
+    <div class="image-info"></div>
+  </div>
+  <div>
+    <p><strong>Imatge GIF:</strong></p>
+    <br>
+    <img src="images/postaDeSol.gif" alt="Example 2" class="w-full" />
+    <div class="image-info"></div>
+  </div>
+</main>
   <script src="scripts/main.js"></script>
 </body>
 </html>
