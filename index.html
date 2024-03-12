@@ -44,7 +44,54 @@
         <img src="images/transparency.png" alt="Example 3" class="w-full" />
         <div class="image-info"></div>
       </div>
+      <style>
+        .card {
+          background-color: #f3f4f6;
+          border-radius: 10px;
+          padding: 20px;
+          margin-bottom: 20px;
+        }
+        .question {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+        .answer {
+          font-size: 1.2rem;
+        }
+      </style>
     </main>
+
+    <footer style="background-color: #474646b9">
+      <br>
+      <h1 class="text-4xl text-white text-center p-5" style="font-weight: bold;">LIGHTHOUSE</h1>
+      <p class="text-2xl text-white text-center p-5">(The results have been analyzed before placing this footnote, therefore they may vary.)</p>
+      <div class="container mx-auto p-5">
+      <br>
+
+      <div class="card">
+        <h2 class="question">Performance Summary:</h2>
+        <p class="answer">The performance analysis of the "LIGHTHOUSE" website reveals several issues impacting user experience and overall site performance. The main problems include inefficient image rendering, resources blocking initial page rendering, excessively large network payloads, and server response times that could be improved.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="question">Main problems:</h2>
+        <p class="answer">1. Inefficient Image Rendering: Images are not properly sized, affecting loading times.</p>
+        <p class="answer">2. Resources Blocking Initial Rendering: Identified resources negatively impacting the initial rendering of the page.</p>
+        <p class="answer">3. Excessively Large Network Payloads: The total size of network payloads is significantly high, leading to extended loading times.</p>
+        <p class="answer">4. Server Response Time Improvement: Although the initial server response time is short, continuous attention is recommended.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="question">Main recommendations:</h2>
+        <p class="answer">1. Image Optimization: Properly size images and use modern formats to enhance loading times.</p>
+        <p class="answer">2. Removal of Rendering-blocking Resources: Efficiently deliver critical CSS and JS, and defer non-critical JS for quicker rendering.</p>
+        <p class="answer">3. Reduction of Network Payloads: Decrease the overall size of network payloads to enhance site efficiency.</p>
+        <p class="answer">4. Continuous Server Response Time Monitoring: Regularly monitor server response times to ensure optimal performance.</p>
+      </div>
+    </div>
+  </footer>
+
     <script src="scripts/main.js"></script>
   </body>
 </html>
